@@ -34,7 +34,7 @@ function OnBoarding() {
             <span className='submit-btn'><a href="/signup">Sign up with mail</a></span>
         </div>
         <div className="login-txt">
-            <p className='login-txt-1'>Existing account?<a href="/signin" className='login-txt-2'> Log in</a></p>
+            <p className='login-txt-1'>Existing account?<a href="/login" className='login-txt-2'> Log in</a></p>
         </div>
     </div>
   )

@@ -29,7 +29,7 @@ function Chatscreen() {
     <div className='chat-screen'>
         <div className="row chat-head sp">
             <div className="row chat-dp sp">
-                <a href="/signin"><img src={backArrow} alt="Arrow" className='chat-back-arr' /></a>
+                <a href="/login"><img src={backArrow} alt="Arrow" className='chat-back-arr' /></a>
                 <img src={DP} alt="Chat-pic" />
             </div>
             <div className="row chat-head-txt sp">

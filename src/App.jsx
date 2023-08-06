@@ -1,12 +1,12 @@
 import './App.css'
 import Signup from './pages/signup'
 import Splash from './pages/splash'
-import Signin from './pages/signin'
 import OnBoarding from './pages/onboarding'
 import Chatscreen from './pages/chatscreen'
 import ChatPage from './pages/chatpage'
 import { Route, Routes } from 'react-router-dom'
 import Top from './components/top'
+import Login from './pages/login'
 function App() {
 
   return (
@@ -14,13 +14,13 @@ function App() {
       <Top />
       {/* routing to different pages of the app using browerRouter component */}
       <Routes>
-        <Route path='/' Component={Splash} />
-        <Route path='/onboarding' Component={OnBoarding} />
-        <Route path='/signin' Component={Signin} />
-        <Route path='/signup' Component={Signup} />
-        <Route path='/splash' Component={Splash} />
-        <Route path='/chatpage' Component={Chatscreen} />
-        <Route path='/mainchat' Component={ChatPage} />
+        <Route path='/' element={<Splash/>} />
+        <Route path='/onboarding' element={<OnBoarding/>} />
+        <Route path='/login' element={<Login/>} />
+        <Route path='/signup' element={<Signup/>} />
+        <Route path='/splash' element={<Splash/>} />
+        <Route path='/chatpage' element={<Chatscreen/>} />
+        <Route path='/mainchat' element={<ChatPage/>} />
       </Routes>
     </div>
   )

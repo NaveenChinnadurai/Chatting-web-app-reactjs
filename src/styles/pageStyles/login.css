@@ -38,6 +38,7 @@
     width: 48px;
     margin: 10px;
     border-radius: 50%;
+    cursor: pointer;
     border: 1px solid black;
 }
 .signin-or{
@@ -119,6 +120,7 @@
     color: #FFC746;
     text-align: center;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 

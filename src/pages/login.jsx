@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import '../styles/pageStyles/signin.css'
+import '../styles/pageStyles/login.css'
 import Fb from '../assets/fb.png'
 import google from '../assets/google.png'
 import apple from '../assets/apple2.png'
 import backArrow from '../assets/Back.png'
-function Signin() {
+function Login() {
     const Icons=[Fb,google,apple]
     const [state,setstate]=useState(true) //defined state of the button
     const handleButton=(e)=>{  // function to check whether input field is empty or not
@@ -53,4 +53,4 @@ function Signin() {
     )
 }
 
-export default Signin
+export default Login

@@ -64,6 +64,7 @@
 .banner-icons{
     height: 48px;
     width: 48px;
+    cursor: pointer;
     margin: 10px;
     border-radius: 50%;
     border:white 1px solid;
@@ -83,7 +84,7 @@
 }
 .line-1{
     margin-bottom: -20px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 .line-2{
     margin-top: -42px;
@@ -102,6 +103,7 @@
     font-weight: 500;
     margin-top: 23px;
     text-align: center;
+    cursor: pointer;
 }
 /* ending text */
 .login-txt{

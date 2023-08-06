@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/pageStyles/splash.css'
 import logo from '../assets/logo.png'
+import OnBoarding from './onboarding'
 function Splash() {
   /* Intro page of the chatting app */
   return (
