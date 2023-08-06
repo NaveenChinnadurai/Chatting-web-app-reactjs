@@ -1,0 +1,124 @@
+.signin-div{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.back-arrow{
+    height: 24px;
+    width: 24px;
+    margin: 15px 0px 0px 18px;
+}
+.signin-txt{
+    margin-top: 70px;
+}
+.signin-title{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #69235B;
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 20px;
+}
+.log-txt>.signin-para{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #69235B;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    width: 293px;
+    margin:15px auto;
+}
+/* styling for icons */
+.signin-icons{
+    padding-top: 10px;
+}
+.banner-icon{
+    height: 48px;
+    width: 48px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.signin-or{
+    color: #69235B;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.line-div{
+    height: 20px;
+    width: 150px;
+    border-bottom: solid 1px #CDD1D0;
+}
+.line1{
+    margin-bottom: -20px;
+    margin-left: 20px;
+}
+.line2{
+    margin-top: -25px;
+    margin-left: 205px;
+}
+/* for input fields */
+.form{
+    padding: 20px;
+    margin-top: 25px;
+}
+.input{
+    width: 100%;
+    margin: 5px 0px 20px 0px;
+}
+.input>label{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #69235B;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+}
+.input-field{
+    border: none;
+    border-bottom: 1px solid #CDD1D0;
+    padding: 5px 0px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000E08;
+    margin-top: 10px;
+}
+.input-field:focus{
+    border: 2px solid white;
+    background-color: #fff;
+}
+.signin-btn{
+    margin-top: 160px;
+}
+.signin-btn:disabled{
+    background-color: #FBDC94;
+    color: #EDA0A8;
+}
+.btn{
+    font-size: 20px;
+    color: rgba(105, 35, 91, 1);
+    background-color: rgba(255, 199, 70, 1);
+    width: 340px;
+    height: 54px;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-radius: 10px;
+    padding: 15px 80px;
+    font-weight: 500;
+}
+.signin-end{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 14px;
+    letter-spacing: 0.1px;
+    color: #FFC746;
+    text-align: center;
+    margin-top: 25px;
+}
+
+

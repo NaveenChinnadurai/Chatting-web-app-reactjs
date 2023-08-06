@@ -1,0 +1,26 @@
+.splash-div{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+.splash-logo-img{
+    height: 172px;
+    width: 172px;
+    margin-top: 320px;
+    margin-left: 101px;
+}
+.splash-txt{
+    width: 295px;
+    height: 25px;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: #69235B;
+    font-weight: 600;
+    line-height: 25px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+

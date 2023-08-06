@@ -1,0 +1,123 @@
+.onBoarding{
+    background-color: rgba(105, 35, 91, 1);
+    height: 95%;
+    width: 100%;
+}
+.start-txt{
+    margin-top: 0px;
+}
+/* for banner image */
+.banner-img{
+    width: 378px;
+    height: 304px;
+    background-image: url('../../assets/bannerImg.png');
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.banner-txt{
+    width: 191.25px;
+    height: 30.375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: -15px;
+    background-color: rgba(203, 203, 255, 1);
+}
+.banner-txt>span{
+    color: rgba(105, 35, 91, 1);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+/* for title text */
+.onboard-title{
+    padding: 35px 0px 0px  35px  ;
+}
+.txt-1{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: white;
+}
+.txt-2{
+    color: rgba(251, 188, 4, 1);
+}
+.txt-3{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    margin: 10px 0px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+}
+.txt-4{
+    color: rgba(251, 188, 4, 1);
+}
+/* icons stylings */
+.start-icons{
+    padding-top: 10px;
+}
+.banner-icons{
+    height: 48px;
+    width: 48px;
+    margin: 10px;
+    border-radius: 50%;
+    border:white 1px solid;
+}
+/* or text */
+.or-txt-1{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.line{
+    width: 130px;
+}
+.line-1{
+    margin-bottom: -20px;
+    margin-left: 40px;
+}
+.line-2{
+    margin-top: -42px;
+    margin-left: 210px;
+}
+/* button styling */
+.submit-btn{
+    font-size: 20px;
+    color: rgba(105, 35, 91, 1);
+    background-color: rgba(255, 199, 70, 1);
+    width: 340px;
+    height: 54px;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-radius: 10px;
+    padding: 15px 80px;
+    font-weight: 500;
+    margin-top: 23px;
+    text-align: center;
+}
+/* ending text */
+.login-txt{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin: 18px 0px;
+}
+.login-txt-1{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.login-txt-2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #FBBC04;
+}

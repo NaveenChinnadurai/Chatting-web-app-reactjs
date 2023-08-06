@@ -1,0 +1,127 @@
+.chat-screen{
+    width: 100%;
+    height: 95%;
+}
+.chat-head{
+    padding: 0px 20px;
+    margin: 10px 0px;
+    height: 70px;
+    background-color: white;
+    justify-content: space-between;
+}
+.chat-dp{
+    width: 23%;
+    justify-content: space-between;
+}
+.chat-head-txt{
+    width: 77%;
+    padding: 0px 10px;
+    height: 44px;
+}
+.head-subtext-1{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #69235B;
+}
+.head-subtext-2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color: #797C7B;
+}
+.head-lang{
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    color: #FBDC94;
+}
+.A{
+    color: #FBBC04;
+    font-weight: 800;
+}
+.a{
+    color: #FBDC94;
+    font-weight: 275;
+}
+
+/* for chat page */
+.chat-page{
+    height: 77%;
+    width: 100%;
+    background-color: #F8F8FF;
+}
+.today-txt{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 30px;
+    color: #69235B;
+}
+.msg-div{
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.msg-txt-right{
+    background-color: #FBBC04;
+    width: fit-content;
+    padding: 10px 25px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 1%;
+    border-radius: 10px;
+    border-top-right-radius: 1px;
+    margin-left: 48%;
+}
+.msg-time{
+    color:#797C7B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    line-height: 10px;
+    font-size: 10px;
+    margin: 7px 0px;
+    margin-left: 75%;
+}
+.msg-logo-img{
+    height: 40px;
+    width: 40px;
+    margin-right:8px;
+}
+.msg-txt-left{
+    background-color: #69235B;
+    padding: 10px 10px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 1%;
+    border-radius: 10px;
+    border-top-left-radius: 1px;
+}
+.msg-left{
+    width: 70%;
+}
+.msg-txt-div-left{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.sub-msg-1{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 8px;
+}
+.msg-time{
+    margin-left: 80%;
+}
+.sub-msg-1>.msg-time{
+    margin-left: 40%;
+}
+
