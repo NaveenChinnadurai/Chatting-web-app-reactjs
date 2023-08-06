@@ -18,7 +18,6 @@ function App() {
         <Route path='/' element={<OnBoarding/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/signup' element={<Signup/>} />
-        <Route path='/splash' element={<Splash/>} />
         <Route path='/chatpage' element={<Chatscreen/>} />
         <Route path='/mainchat' element={<ChatPage/>} />
       </Routes>
