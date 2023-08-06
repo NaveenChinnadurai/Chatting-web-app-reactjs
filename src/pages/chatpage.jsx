@@ -1,7 +1,7 @@
 import React from 'react'
 import DP from '../assets/chatdp.png'
 import backArrow from '../assets/Back.png'
-import vector from '../assets/vector.png'
+import vector from '../assets/Vector.png'
 import warning from '../assets/warning.png'
 import '../styles/pageStyles/chatpage.css'
 import Msgbox from '../components/msgbox'
