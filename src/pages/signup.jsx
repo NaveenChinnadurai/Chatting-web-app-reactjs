@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png'
-import backArrow from '../assets/back.png'
+import backArrow from '../assets/Back.png'
 import '../styles/pageStyles/signup.css'
 import { signupInput } from '../script'
 function Signup() {

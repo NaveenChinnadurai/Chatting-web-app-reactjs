@@ -3,7 +3,7 @@ import '../styles/pageStyles/signin.css'
 import Fb from '../assets/fb.png'
 import google from '../assets/google.png'
 import apple from '../assets/apple2.png'
-import backArrow from '../assets/back.png'
+import backArrow from '../assets/Back.png'
 function Signin() {
     const Icons=[Fb,google,apple]
     const [state,setstate]=useState(true) //defined state of the button

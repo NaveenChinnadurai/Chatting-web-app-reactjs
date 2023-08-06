@@ -1,6 +1,6 @@
 import React from 'react'
 import DP from '../assets/chatdp.png'
-import backArrow from '../assets/back.png'
+import backArrow from '../assets/Back.png'
 import vector from '../assets/vector.png'
 import warning from '../assets/warning.png'
 import '../styles/pageStyles/chatpage.css'

@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import DP from '../assets/chatdp.png'
-import backArrow from '../assets/back.png'
+import backArrow from '../assets/Back.png'
 import '../styles/pageStyles/chatscreen.css'
 import Msgbox from '../components/msgbox'
 function Chatscreen() {
