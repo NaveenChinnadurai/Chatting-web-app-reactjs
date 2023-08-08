@@ -1,6 +1,6 @@
 import './App.css'
 import Signup from './pages/signup'
-/* import Splash from './pages/splash' */
+import Splash from './pages/splash'
 import OnBoarding from './pages/onboarding'
 import Chatscreen from './pages/chatscreen'
 import ChatPage from './pages/chatpage'
@@ -14,8 +14,8 @@ function App() {
       <Top />
       {/* routing to different pages of the app using browerRouter component */}
       <Routes>
-        {/*<Route path='/' element={<Splash/>} /> */}
-        <Route path='/' element={<OnBoarding/>} />
+        <Route path='/' element={<Splash/>} />
+        <Route exact path='/onboarding' element={<OnBoarding/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/signup' element={<Signup/>} />
         <Route path='/chatpage' element={<Chatscreen/>} />

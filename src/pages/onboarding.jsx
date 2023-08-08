@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/pageStyles/onboard.css'
 import Fb from '../assets/fb.png'
 import google from '../assets/google.png'
@@ -31,10 +32,10 @@ function OnBoarding() {
         <p className='or-txt-1'>OR</p>
         <div className="line-div line line-2"></div>
         <div className="sub-btn row">
-            <span className='submit-btn'><a href="/signup">Sign up with mail</a></span>
+            <span className='submit-btn'><Link to="/signup">Sign up with mail</Link></span>
         </div>
         <div className="login-txt">
-            <p className='login-txt-1'>Existing account?<a href="/login" className='login-txt-2'> Log in</a></p>
+            <p className='login-txt-1'>Existing account?<Link to="/login" className='login-txt-2'> Log in</Link></p>
         </div>
     </div>
   )

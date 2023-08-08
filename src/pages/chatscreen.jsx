@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import { Link } from 'react-router-dom'
 import DP from '../assets/chatdp.png'
 import backArrow from '../assets/Back.png'
 import '../styles/pageStyles/chatscreen.css'
@@ -29,7 +30,7 @@ function Chatscreen() {
     <div className='chat-screen'>
         <div className="row chat-head sp">
             <div className="row chat-dp sp">
-                <a href="/login"><img src={backArrow} alt="Arrow" className='chat-back-arr' /></a>
+                <Link to="/login"><img src={backArrow} alt="Arrow" className='chat-back-arr' /></Link>
                 <img src={DP} alt="Chat-pic" />
             </div>
             <div className="row chat-head-txt sp">

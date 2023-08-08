@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import DP from '../assets/chatdp.png'
 import backArrow from '../assets/Back.png'
 import vector from '../assets/Vector.png'
@@ -20,7 +21,7 @@ function ChatPage() {
     <div className='chatPage-div'>
         <div className="row chat-head sp">
             <div className="row chat-dp sp">
-                <a href="/signup"><img src={backArrow} alt="Arrow" className='chat-back-arr' /></a>
+                <Link to="/signup"><img src={backArrow} alt="Arrow" className='chat-back-arr' /></Link>
                 <img src={DP} alt="Chat-pic" />
             </div>
             <div className="row chat-head-txt sp">

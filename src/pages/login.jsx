@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/pageStyles/login.css'
 import Fb from '../assets/fb.png'
 import google from '../assets/google.png'
@@ -25,7 +26,7 @@ function Login() {
         /* content of the sign page */
         <div className='signin-div'>
             <div className="signin-img">
-                <a href="/onboarding"><img src={backArrow} alt="Back Arrow" className='back-arrow'/></a>
+                <Link to="/onboarding"><img src={backArrow} alt="Back Arrow" className='back-arrow'/></Link>
             </div>
             <div className="signin-txt log-txt col">
                 <p className='signin-title'>Log in to Mokx</p>
@@ -46,7 +47,7 @@ function Login() {
                 </div>
             </div>
             <div className="row">
-                <a href="/chatpage"><button disabled={state} className='btn signin-btn row'>Login</button></a>
+                <Link to="/chatpage"><button disabled={state} className='btn signin-btn row'>Login</button></Link>
             </div>
             <p className='signin-end'>Forgot Password?</p>
         </div>
